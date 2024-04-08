@@ -34,4 +34,4 @@ config:
         - export
     use-template:
       requires: []
-      template: ibu-test/test-1@latest
+      template: sd/noop@latest
