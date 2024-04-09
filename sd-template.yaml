@@ -35,3 +35,5 @@ config:
     use-template:
       requires: []
       template: sd/noop@latest
+      steps:
+        - noop: echo "overwrite step"
